@@ -16,7 +16,7 @@ WebDriver driver;
 @Test
 public void test()
 {
-	System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Chrome Driver\\chromedriver_win32\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Chrome Driver\\chromedriver_win32\\chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.get("https://www.myntra.com/");
 	driver.manage().window().maximize(); 
